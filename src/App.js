@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Registration from './components/Registration';
 import Header from './components/Header';
+import Login from './components/Login';
 import './App.css';
 
 function App() {
@@ -13,6 +14,9 @@ function App() {
           <Switch>
             <Route path="/" exact={true}>
               <Registration /> 
+            </Route>
+            <Route path="/login">
+              <Login />
             </Route>
           </Switch>
         </div>
