@@ -17,7 +17,7 @@ function Registration(props) {
 
   const handleSubmit = e => {
     e.preventDefault();
-    submitData();
+    // submitData();
   }
 
   return (
@@ -51,7 +51,7 @@ function Registration(props) {
 
         <button 
           type="submit" 
-          className="btn btn-primary"
+          className="btn btn-secondary"
           onClick={handleSubmit}
           >
             Sign Up
@@ -61,3 +61,5 @@ function Registration(props) {
     </div>
   )
 }
+
+export default Registration;
