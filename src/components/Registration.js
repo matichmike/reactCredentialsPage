@@ -19,9 +19,7 @@ function Registration() {
 
   return (
     <div className="card login-card col-12 col-lg-4 mt-2 hv-center">
-      
       <form ms-signup="true">
-
         <div className="form-group text-left">
           <label htmlFor="emailInput">Email</label>
             <input 

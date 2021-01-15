@@ -17,9 +17,7 @@ function Login() {
 
   return (
     <div className="card login-card col-12 col-lg-4 mt-2 hv-center">
-      
       <form ms-login="true">
-
         <div className="form-group text-left">
           <label htmlFor="emailInput">Email</label>
             <input 
