@@ -53,13 +53,16 @@ function Login(props) {
 
         <button 
           type="submit" 
-          className="btn btn-secondary"
+          className="btn btn-primary"
           // onClick={handleSubmit}
           >
             Log in
         </button>
 
       </form>
+
+      <a href="/" className="btn btn-secondary bottom-button">Create a New Account</a>
+    
     </div>
   )
 }

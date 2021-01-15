@@ -53,13 +53,16 @@ function Registration(props) {
 
         <button 
           type="submit" 
-          className="btn btn-secondary"
+          className="btn btn-primary"
           // onClick={handleSubmit}
           >
             Sign Up
         </button>
 
       </form>
+      
+      <a href="/login" className="btn btn-secondary bottom-button">Have an Account? Log in here</a>
+    
     </div>
   )
 }
