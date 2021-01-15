@@ -3,8 +3,11 @@ Sign Up/Sign In/ Logout page built using React/React-Router-Dom/Bootstrp on fron
 
 ## Setup 
 Clone the repository
+<br/>
 Run npm install
+<br/>
 The page will be served at http://localhost:3000/
+<br/>
 
 ## Preview
 ![“Sample Screenshot”](https://github.com/matichmike/reactCredentialsPage/blob/master/images/signup.png?raw=true)
