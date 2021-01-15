@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 function Registration() {
 
   const [state, setState] = useState({
+    fullname: "",
     email: "",
     password: ""
   });
@@ -20,6 +21,19 @@ function Registration() {
   return (
     <div className="card login-card col-12 col-lg-4 mt-2 hv-center">
       <form ms-signup="true">
+      <div className="form-group text-left">
+          <label htmlFor="nameInput">Fullname</label>
+            <input 
+              data-ms-member="fullname"
+              type="text"
+              name="fullname"
+              className="form-control"
+              id="text"
+              placeholder="Enter Your Name"
+             
+            />
+        </div>
+
         <div className="form-group text-left">
           <label htmlFor="emailInput">Email</label>
             <input 
