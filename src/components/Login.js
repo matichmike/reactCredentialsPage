@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function Login(props) {
+function Login() {
 
   const [state, setState] = useState({
     email: "",
@@ -13,11 +13,6 @@ function Login(props) {
     setState(prevState => ({
       ...prevState, [id] : value
     }))
-  }
-
-  const handleSubmit = e => {
-    e.preventDefault();
-    // submitData();
   }
 
   return (
@@ -54,15 +49,11 @@ function Login(props) {
         <button 
           type="submit" 
           className="btn btn-primary"
-          // onClick={handleSubmit}
           >
             Log in
         </button>
-
       </form>
-
       <a href="/" className="btn btn-secondary bottom-button">Create a New Account</a>
-    
     </div>
   )
 }

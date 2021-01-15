@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function Registration(props) {
+function Registration() {
 
   const [state, setState] = useState({
     email: "",
@@ -15,10 +15,7 @@ function Registration(props) {
     }))
   }
 
-  const handleSubmit = e => {
-    e.preventDefault();
-    // submitData();
-  }
+  
 
   return (
     <div className="card login-card col-12 col-lg-4 mt-2 hv-center">
@@ -54,7 +51,6 @@ function Registration(props) {
         <button 
           type="submit" 
           className="btn btn-primary"
-          // onClick={handleSubmit}
           >
             Sign Up
         </button>

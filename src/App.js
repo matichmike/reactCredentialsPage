@@ -12,7 +12,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Header />
+        <Header/>
         <div className="container d-flex align-items-center flex-column">
           <Switch>
             <Route path="/" exact={true}>
@@ -24,7 +24,7 @@ function App() {
             <Route path="/loggedin">
               <Loggedin />
             </Route>
-            <Route path="/loggedout">
+            <Route path="/ms/logout">
               <Loggedout />
             </Route>
             <Route path="/signedup">
