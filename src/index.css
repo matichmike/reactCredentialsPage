@@ -6,8 +6,12 @@
 }
 
 .navbar {
-  
   margin-left: 5px;
   margin-right: 5px;
   border-radius: 10px;
+}
+
+.login-card {
+  padding-bottom: 15px;
+  padding-top: 15px;
 }

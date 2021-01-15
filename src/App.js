@@ -3,6 +3,9 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Registration from './components/Registration';
 import Header from './components/Header';
 import Login from './components/Login';
+import Loggedin from './components/Loggedin';
+import Loggedout from './components/Loggetout';
+import Signedup from './components/Signedup';
 import './App.css';
 
 function App() {
@@ -17,6 +20,15 @@ function App() {
             </Route>
             <Route path="/login">
               <Login />
+            </Route>
+            <Route path="/loggedin">
+              <Loggedin />
+            </Route>
+            <Route path="/loggedout">
+              <Loggedout />
+            </Route>
+            <Route path="/signedup">
+              <Signedup />
             </Route>
           </Switch>
         </div>
