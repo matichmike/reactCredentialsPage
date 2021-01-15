@@ -23,11 +23,12 @@ function Registration(props) {
   return (
     <div className="card login-card col-12 col-lg-4 mt-2 hv-center">
       
-      <form>
+      <form ms-signup="true">
 
         <div className="form-group text-left">
           <label htmlFor="emailInput">Email</label>
             <input 
+              data-ms-member="email"
               type="email"
               className="form-control"
               id="email"
@@ -40,6 +41,7 @@ function Registration(props) {
         <div className="form-group text-left">
           <label htmlFor="passwordInput">Password</label>
             <input 
+              data-ms-member="password"
               type="password"
               className="form-control"
               id="password"
@@ -52,7 +54,7 @@ function Registration(props) {
         <button 
           type="submit" 
           className="btn btn-secondary"
-          onClick={handleSubmit}
+          // onClick={handleSubmit}
           >
             Sign Up
         </button>
