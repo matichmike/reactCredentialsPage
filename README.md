@@ -1,7 +1,7 @@
 # React Credentials Page
 Sign Up/Sign In/ Logout page built using React/React-Router-Dom/Bootstrp on front-end and Memberstack 3rd party for back-end data persistence
 
-The App is deployed at Netlify, please click [HERE]() to view it.
+The App is deployed at Netlify, please click [HERE](https://stoic-chandrasekhar-a75333.netlify.app) to view it.
 
 ## Preview
 ![“Sample Screenshot”](https://github.com/matichmike/reactCredentialsPage/blob/master/images/signup.png?raw=true)
